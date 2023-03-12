@@ -1,0 +1,953 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+/* Navbar */
+.Navbar {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+    justify-content: space-around;
+}
+
+.icon-bar {
+    display: none;
+}
+
+.Navbar h1 {
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.Navbar span {
+    color: palevioletred;
+}
+
+.nav {
+
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+
+    list-style: none;
+
+    /* background-color: brown; */
+}
+
+.nav-ul {
+
+
+    display: flex;
+    list-style: none;
+}
+
+a {
+    margin: 8px;
+
+    color: white;
+    transition: 1s;
+    font-size: 25px;
+}
+
+
+
+.icon-ul {
+    display: flex;
+    list-style: none;
+
+    /* margin: 10px; */
+}
+
+.icon-ul li {
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+
+}
+
+.icon-ul a {
+    padding: 10px;
+    background-color: rgb(44, 6, 80);
+    color: white;
+    border-radius: 8px;
+
+}
+
+.Navbar a:hover {
+    color: rgb(170, 169, 169);
+}
+
+/* navbar complete */
+
+
+/* header design start*/
+
+.header {
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    /* height: 100%; */
+    margin: 100px 50px;
+    color: white;
+}
+
+.column {
+    width: 100%;
+    height: 100%;
+
+}
+
+.header h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header p {
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* .column a i{
+    background-color: aqua;
+    height: 20%;
+} */
+.header a {
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: rgba(216, 112, 147, 0.288);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    transition: 2s;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: 'VT323', monospace;
+
+}
+
+.header a:hover {
+    background-color: rgb(175, 50, 50);
+}
+
+.header img {
+    height: 40%;
+    width: 50%;
+
+}
+
+
+
+/* feature design */
+#feature-heading {
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
+.feature {
+    position: relative;
+}
+
+.main-feature {
+    text-align: center;
+    /* margin: 100px 0 100px; */
+}
+
+.feature img {
+    margin: 100px 0 100px;
+}
+
+.feature-col-1 {
+    width: 30%;
+    height: 30%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-left: 100px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.feature h1 {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.feature p {
+    font-size: 30px;
+    color: white;
+}
+
+.feature-col-2 {
+    width: 30%;
+    height: 30%;
+    margin-right: 100px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.feature-col-3 {
+    width: 30%;
+    height: 30%;
+    margin-left: 100px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.feature-col-4 {
+
+    width: 30%;
+
+    /* padding: 20px; */
+    margin-right: 100px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* product */
+
+#product-heading {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.product h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.product p {
+    font-size: 30px;
+    margin: 15px;
+}
+
+.product button {
+    padding: 20px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgba(78, 110, 18, 0.348);
+    font-family: 'Averia Serif Libre', cursive;
+    transition: 2s;
+}
+
+.product button:hover {
+    background-color: rgb(140, 88, 88);
+}
+
+.col {
+    background-color: rgba(150, 189, 194, 0.393);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin: 20px;
+}
+
+.col img {}
+
+.ratting {
+    color: rgb(243, 243, 237);
+}
+
+/* product design complete */
+
+/* latest news */
+.head {
+    text-align: center;
+
+
+}
+
+.News {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.flexible h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+
+}
+
+.flexible p {
+    font-size: 30px;
+    color: white;
+
+
+}
+
+.flexible button {
+    background-color: rgba(165, 42, 42, 0.478);
+    font-family: 'Averia Serif Libre', cursive;
+    padding: 20px;
+    margin: 20PX;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    transition: 2s;
+
+}
+
+.flexible button:hover {
+    background-color: rgba(210, 105, 30, 0.442);
+}
+
+.flexible {
+    /* border: 2px solid black; */
+    font-size: 40px;
+    color: white;
+
+}
+
+.btn-primary {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 80%;
+    margin: 30px;
+    margin-left: 150px;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px;
+    background-color: rgb(139, 87, 181);
+}
+
+.apples {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 80%;
+    margin: 30px;
+    margin-left: 150px;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px;
+    background-color: rgb(139, 87, 181);
+}
+
+.btn-button {
+    text-align: center;
+}
+
+.btn-button button {
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.317);
+    font-family: 'Averia Serif Libre', cursive;
+    padding: 20px 30px;
+    margin: 20PX;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    transition: 2s;
+
+
+}
+
+.btn-button button:hover {
+    background-color: rgb(193, 95, 191);
+    /* background-color: rgb(163, 59, 59); */
+}
+
+/* testimonial */
+.heading {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.test-section {
+    display: grid;
+    grid-template-columns: 70% 100px;
+    justify-content: end;
+    /* background-color: rgb(61, 45, 76); */
+    width: 70%;
+    border: 2px solid yellow;
+    border-radius: 20px;
+
+    /* margin-left: 20%; */
+    height: 150px;
+    margin: 30px;
+    margin: auto;
+    /* margin-left: 150px; */
+
+
+}
+
+.test-section i {
+    margin: 15px;
+    padding: 20px 25px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.test-lorem {
+    border-radius: 20px;
+
+    /* width: 30%; */
+    border: 2px solid wheat;
+    padding: 30px 100px 30px 30px;
+
+    background-color: #c15fbf;
+    margin-left: 20%;
+
+}
+
+.test-icon {
+    /* width: 10%; */
+    border: 2px solid green;
+
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    border-radius: 20px;
+
+
+}
+
+/* footer */
+.footer {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(33, 32, 32);
+    text-align: center;
+}
+
+
+.myfooter {
+    background-color: black !important;
+    text-align: center;
+}
+
+.footer .myfooter>h1 {
+
+    background: -webkit-linear-gradient(rgb(197, 147, 156), rgb(230, 209, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+}
+
+.footer h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.footer .icon {
+    display: flex;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    justify-content: center;
+}
+
+.icon i {
+
+    /* background-color: brown; */
+
+}
+
+
+.site-map {
+    margin-top: 40px;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    width: 80%;
+
+
+}
+
+.site-map .about {
+    width: 20%;
+
+    color: aliceblue;
+
+
+}
+
+.sms {
+    display: flex;
+    width: 80%;
+}
+
+.sms .news {
+    color: aliceblue;
+    width: 20%;
+}
+
+.comment {
+    margin-bottom: 40px;
+    display: flex;
+    width: 80%;
+}
+
+.comment .conference {
+    color: aliceblue;
+    width: 20%;
+}
+
+.footer .and {
+    /* margin-top: 10px; */
+    color: white;
+    text-align: center;
+}
+
+.footer .copy {
+    color: rgb(186, 201, 214);
+    text-align: center;
+}
+
+
+
+
+
+/* Responsive */
+/* Mobile set */
+@media screen and (max-width:600px) {
+    body {
+        /* background-color: brown; */
+    }
+
+    .Navbar {
+        /* background-color: chocolate; */
+        position: sticky;
+        top: 0;
+        /* position: relative; */
+    }
+
+    .nav-ul {
+
+        flex-direction: column;
+
+    }
+
+    .nav {
+
+        -webkit-clip-path: inset(0 0 100% 0);
+        clip-path: inset(0 0 100% 0);
+
+
+        text-align: center;
+        display: block;
+        position: absolute;
+        width: 90%;
+        background-color: rgb(163, 67, 67);
+        padding: 40px;
+        transition: 3s;
+        top: 95%;
+        right: 0;
+
+
+    }
+
+    .icon-ul {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .icon-bar {
+
+        display: block;
+        font-size: 40px;
+        margin-top: 20px;
+        transition: 3s;
+
+
+    }
+
+    .icon-bar:hover+.nav {
+        -webkit-clip-path: inset(0 0 0 0);
+        clip-path: inset(0 0 0 0);
+        /* text-align: center;
+        display: block;
+        position: absolute;
+        width: 90%;
+        background-color: rgb(163, 67, 67);
+        padding: 40px;
+        transition: 3s;
+        top: 95%;
+        right: 0; */
+
+    }
+
+
+    /* navbar complete */
+
+
+
+    .header {
+        flex-direction: column;
+
+        margin: 10px;
+        text-align: center;
+    }
+
+    .header h1 {
+        margin-top: 29px;
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 20px;
+    }
+
+    .header img {
+        /* width: 70%; */
+    }
+
+    .product {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product h3 {
+        font-size: 30px;
+    }
+
+    .col {
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .feature-col-1 {
+        width: 50%;
+        margin: 10px;
+        height: 30%;
+    }
+
+    .feature-col-2 {
+        width: 50%;
+        margin: 10px;
+        height: 30%;
+    }
+
+    .feature img {
+        margin: 150px 0;
+    }
+
+    .feature-col-3 {
+        width: 50%;
+        margin: 10px;
+        height: 30%;
+    }
+
+    .feature-col-4 {
+        width: 50%;
+        margin: 10px;
+        height: 30%;
+    }
+
+    .feature p {
+        font-size: 20px;
+    }
+
+    /* latest news */
+    .btn-primary {
+        width: 100%;
+        margin: 0;
+    }
+
+    .flexible h1 {
+        font-size: 20px;
+    }
+
+    .flexible img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .flexible {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .flexible button {
+        padding: 10px;
+        font-size: 15px;
+
+    }
+
+    .flexible p {
+        font-size: 15px;
+
+    }
+
+    .apples {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* footer */
+    .footer {
+        height: 73vh;
+    }
+
+    .myfooter h1 {
+        font-size: 40px !important;
+    }
+
+    .myfooter h2 {
+        font-size: 30px;
+    }
+
+    .site-map {
+        margin-top: 5px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .site-map .about {
+        margin: 5px;
+
+        width: 40%;
+    }
+
+    .sms {
+
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sms .news {
+        margin: 5px;
+
+        width: 40%;
+    }
+
+    .comment {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .comment .conference {
+        margin: 5px;
+
+        color: aliceblue;
+        width: 40%;
+    }
+
+    .footer .and {
+        margin-top: 0px;
+    }
+
+
+}
+
+
+/* Tablet */
+@media screen and (min-width:600px) and (max-width:992px) {
+    .Navbar {
+        flex-direction: column;
+    }
+
+    .Navbar h1 {
+        text-align: center;
+    }
+
+    .nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav a {
+        font-size: 20px;
+    }
+
+
+
+    /* navbar complete */
+
+
+
+
+    .header h1 {
+        margin-top: 35px;
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 20px;
+    }
+
+    .header img {
+        width: 300px;
+        /* width: 70%; */
+    }
+
+
+
+
+
+    .product {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-feature {}
+
+    .feature-col-1 {
+        width: 50%;
+        margin: 15px;
+        height: 30%;
+    }
+
+    .feature-col-2 {
+        width: 50%;
+        margin: 15px;
+        height: 30%;
+    }
+
+    .feature img {
+        margin: 150px 0;
+    }
+
+    .feature-col-3 {
+        width: 50%;
+        margin: 15px;
+        height: 30%;
+    }
+
+    .feature-col-4 {
+
+
+        width: 50%;
+        margin: 15px;
+        height: 30%;
+    }
+
+    .feature p {
+        font-size: 20px;
+    }
+
+    /* latest news */
+    .btn-primary {
+        width: 100%;
+        margin: 0;
+    }
+
+    .flexible h1 {
+        font-size: 21px;
+    }
+
+    .flexible img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .flexible {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .flexible button {
+        padding: 15px;
+        font-size: 15px;
+
+    }
+
+    .flexible p {
+        font-size: 20px;
+
+    }
+
+    .apples {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* footer */
+    .footer {
+        height: 50vh;
+    }
+
+    .myfooter h1 {
+        font-size: 40px !important;
+
+    }
+
+    .site-map {
+        margin-top: 15px;
+        width: 100%;
+
+
+    }
+
+    .site-map .about {
+        width: 25%;
+        font-size: 10px;
+
+
+
+    }
+
+    .sms {
+        display: flex;
+        width: 100%;
+    }
+
+    .sms .news {
+        width: 25%;
+        font-size: 10px;
+    }
+
+    .comment {
+        margin-bottom: 15px;
+        display: flex;
+        width: 100%;
+    }
+
+    .comment .conference {
+        width: 25%;
+        font-size: 10px;
+    }
+
+
+
+
+}
